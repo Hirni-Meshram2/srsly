@@ -11,6 +11,7 @@ matrix:
     python: '3.8'
 
 before install:
+  - pip install srsly
   - python -m pip install --upgrade pip setuptools
   - pip install -r requirements.txt
     
