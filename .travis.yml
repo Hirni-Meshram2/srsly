@@ -4,11 +4,11 @@ matrix:
   include:
   - os: linux
     language: python
-    python: '3.6'
+    python: '3.8'
   - os: linux
     language: python
     arch: arm64
-    python: '3.6'
+    python: '3.8'
 
 before install:
   - python -m pip install --upgrade pip setuptools
